@@ -14,6 +14,7 @@ To write a program to predict the type of species of the Iris flower using the S
 
 ## Program:
 
+~~~py
 from sklearn.datasets import load_iris
 
 from sklearn.model_selection import train_test_split
@@ -78,6 +79,7 @@ prediction = model.predict(new_flower)
 print("\nPredicted Iris Species:")
 
 print(iris.target_names[prediction[0]])
+~~~
 
 ## Output:
 
